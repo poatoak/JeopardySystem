@@ -4,7 +4,7 @@
 int buttonPin = 23;
 int callPin = 18;
 bool lockedout = true;
-int ID = 1;
+int ID = 0; //Range from 0 to 7, matching to corresponding lockout index in hub array
 
 uint8_t hubAddress[] = {0xXX, 0xXX, 0xXX, 0xXX, 0xXX, 0xXX};
 
